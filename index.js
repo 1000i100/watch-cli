@@ -1,4 +1,4 @@
-const log = require('verbalize');
+const log = new (require('verbalize'))();
 const gaze = require('gaze');
 const path = require('path');
 const process = require('process');
