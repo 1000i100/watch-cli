@@ -1,18 +1,25 @@
 {
-  "name": "watch-cli",
+  "name": "watch-cli-only",
   "description": "Command line wrapper for gaze to use in package.json scripts object.",
-  "version": "0.2.3",
-  "homepage": "https://github.com/doowb/watch-cli",
-  "author": {
-    "name": "Brian Woodward",
-    "url": "https://github.com/doowb"
-  },
+  "version": "0.2.4",
+  "homepage": "https://github.com/1000i100/watch-cli",
+  "authors": [
+    {
+      "name": "[1000i100] Millicent Billette",
+      "email": "git@1000i100.fr",
+      "url": "https://1forma-tic.fr"
+    },
+    {
+      "name": "Brian Woodward",
+      "url": "https://github.com/doowb"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/doowb/watch-cli.git"
+    "url": "git://github.com/1000i100/watch-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/doowb/watch-cli/issues"
+    "url": "https://github.com/1000i100/watch-cli/issues"
   },
   "license": "MIT",
   "files": [
@@ -26,15 +33,10 @@
   "engines": {
     "node": ">=0.8"
   },
-  "scripts": {
-    "test": "mocha"
-  },
   "dependencies": {
     "gaze": "^1.1.3",
-    "lodash": "^4.17.11",
-    "minimist": "^1.2.0",
-    "supports-color": "^5.5.0",
-    "verbalize": "^0.2.0"
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.0"
   },
   "keywords": [
     "docs",
@@ -42,10 +44,6 @@
     "generate",
     "generator",
     "markdown",
-    "templates",
-    "verb"
-  ],
-  "devDependencies": {
-    "mocha": "^5.2.0"
-  }
+    "templates"
+  ]
 }
