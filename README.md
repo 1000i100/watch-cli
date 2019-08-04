@@ -2,6 +2,8 @@
 
 > Command line wrapper for gaze to use in package.json scripts object.
 
+[chokidar-cli](https://www.npmjs.com/package/chokidar-cli) do the same and is widely used.
+
 ### Install globally
 
 **Install globally with [npm](npmjs.org)**
